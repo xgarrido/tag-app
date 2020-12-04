@@ -81,6 +81,7 @@ for pdf in "${pdfs:0:-1}"; do
 
     cp ${tag_file} ${temp_dir}
     cp ${pdf} ${temp_dir}
+    cp ${current_path}/onimage.sty ${temp_dir}
     (
         cd ${temp_dir}
         if ${multipages}; then
