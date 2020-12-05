@@ -7,3 +7,4 @@ texlive-publishers
 texlive-science
 texlive-xetex
 texlive-extra-utils
+poppler-utils
